@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Flex & Grid</title>
+    <style>
+      .flex {
+        display: flex;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
+      .box {
+        background-color: lightblue;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="flex">
+      <div class="box">Item 1</div>
+      <div class="box">Item 2 Item 2</div>
+      <div class="box">Item 3 Item 3 Item 3</div>
+    </div>
+    <div class="grid">
+      <div class="box">Item 1</div>
+      <div class="box">Item 2 Item 2</div>
+      <div class="box">Item 3 Item 3 Item 3</div>
+    </div>
+  </body>
+</html>
